@@ -4,7 +4,7 @@ The purpose of this repository is to automate hardcore world regeneration on pla
 
 ## Installation
 
-Use the open source container service provider [Docker](https://docs.docker.com/engine/install/) to install Docker.
+Install the open source container service provider [Docker](https://docs.docker.com/engine/install/).
 
 ### Example: Installing Docker Engine on Ubuntu example from the [docs](https://docs.docker.com/engine/install/ubuntu/):
 
