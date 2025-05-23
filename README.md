@@ -43,14 +43,28 @@ sudo docker run hello-world
 You should get a message from the Docker container that your installation was completed successfully!
 
 ## Usage
-After git cloning the repository into a dedicated folder of your choice, you must first move into the folder.
 
+### CLI
+To run the latest version (1.21.5), run:
 ```bash
-cd hardcore_vanilla_mc
+docker run -d -it -p 25565:25565 courtesi/hardcore_mc
 ```
-Then, all you have to do is build and start the container using the Docker Compose file.
+
+### Docker Compose
+Create a new directory
+Create a file called ```docker-compose.yml``` and put the contents below into it
+Run ```docker compose up -d```
+Don't forget to port forward 25565!
 ```bash
-docker compose up -d
+services:
+  hardcore_mc:
+    image: courtesi/hardcore_mc
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
 ```
 
 ## Contributing
