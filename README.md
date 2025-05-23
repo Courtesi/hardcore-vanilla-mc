@@ -46,7 +46,7 @@ You should get a message from the Docker container that your installation was co
 After git cloning the repository into a dedicated folder of your choice, you must first move into the folder.
 
 ```bash
-cd hardcore-vanilla-mc
+cd hardcore_vanilla_mc
 ```
 Then, all you have to do is build and start the container using the Docker Compose file.
 ```bash
