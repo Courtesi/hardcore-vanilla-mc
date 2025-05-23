@@ -51,10 +51,14 @@ docker run -d -it -p 25565:25565 courtesi/hardcore_mc
 ```
 
 ### Docker Compose
-Create a new directory
-Create a file called ```docker-compose.yml``` and put the contents below into it
-Run ```docker compose up -d```
-Don't forget to port forward 25565!
+1. Create a new directory.
+
+2. Create a file called ```docker-compose.yml``` and put the contents below into it
+
+3. Run ```docker compose up -d```
+
+4. Don't forget to port forward 25565!
+
 ```bash
 services:
   hardcore_mc:
