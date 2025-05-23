@@ -61,4 +61,4 @@ to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
 ## Credit
-Thanks to Bloodimooni on GitHub for providing the hardcore.py file.
+Thanks to Bloodimooni on GitHub for providing the ```hardcore.py``` file.
